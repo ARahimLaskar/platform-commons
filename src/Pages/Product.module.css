@@ -1,0 +1,11 @@
+.productsContainer {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.8rem; */
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next row if needed */
+  justify-content: space-between; /* Distribute cards evenly with space between them */
+  /* margin: 20px; */
+}

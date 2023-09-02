@@ -1,0 +1,51 @@
+.cardSection {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  border: 1px solid black;
+  justify-content: left;
+  align-items: left;
+}
+
+.card img {
+  max-width: 100px;
+  height: 100px;
+  /* margin: 0 auto; */
+}
+.card div h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  overflow: hidden; /* Hide overflowing text */
+  max-height: 3em; /* Limit to two lines (adjust as needed) */
+  line-height: 1.5em; /* Adjust line height for two lines */
+}
+.card div p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.checkOutBtn {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  /* position: absolute;
+  left: 45%;
+  right: 30px;
+  bottom: 30px; */
+}
+/* #cross {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  /* padding: 10px; */
+.quantityDiv {
+  display: flex;
+}

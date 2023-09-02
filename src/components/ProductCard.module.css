@@ -1,0 +1,137 @@
+.product_card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 20em;
+  height: 20rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Style the product image */
+.product_card img {
+  height: 50%;
+  margin: 0 auto;
+  margin-bottom: 0.8rem;
+}
+
+/* Style the product title */
+.product-card h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Add an ellipsis (...) to indicate hidden text */
+  max-height: 3em; /* Limit to two lines (adjust as needed) */
+  line-height: 1.5em; /* Adjust line height for two lines */
+}
+
+/* Style the product description */
+.product_card p {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* .PriceRatingButton {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 4;
+} */
+.PriceRating {
+  display: flex;
+  width: 85%;
+  position: absolute;
+  bottom: 50px;
+  justify-content: space-between;
+}
+.PriceRating span {
+  font-size: 1.25rem;
+  color: #ff6600;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Style the "Add to Cart" button */
+.product_card button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.product_card button:hover {
+  background-color: #e64900;
+}
+
+#popup {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40rem;
+  height: auto;
+  padding: 30px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  background: #fff;
+  z-index: 5;
+  gap: 2rem;
+}
+
+#popup img {
+  max-width: 40%;
+  margin: 0 auto;
+}
+#popup h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  /* white-space: nowrap; Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  /* text-overflow: ellipsis; Add an ellipsis (...) to indicate hidden text */
+  max-height: 3em; /* Limit to two lines (adjust as needed) */
+  line-height: 1.5em; /* Adjust line height for two lines */
+}
+#popup p {
+  font-size: 1rem;
+  color: #777;
+}
+#spanDiv {
+  display: flex;
+  font-size: 1rem;
+  color: #ff6600;
+  font-weight: bold;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+}
+
+/* Style the "Add to Cart" button */
+#popup button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  position: absolute;
+  left: 45%;
+  right: 30px;
+  bottom: 30px;
+}
+#cross {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  /* padding: 10px; */
+}

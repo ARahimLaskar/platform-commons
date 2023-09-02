@@ -1,0 +1,99 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  height: 5rem;
+  background-color: white;
+  box-shadow: 0 1px 12px #ababab;
+}
+
+.nav_bar li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.logo {
+  cursor: pointer;
+  height: 35px;
+  width: 89px;
+  margin-bottom: 30px;
+  margin-left: -66px;
+}
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+i {
+  cursor: pointer;
+}
+
+.right_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_icons {
+  background-color: #eaeaea;
+  border-radius: 5rem;
+  /* padding: 0.2rem; */
+  height: 100%;
+}
+
+.input_icons i {
+  padding: 0.5rem;
+}
+.input_icons input {
+  border: none;
+  background-color: transparent;
+}
+
+.icons {
+  display: flex;
+}
+.icons i {
+  font-size: 1rem;
+  padding: 0 12px;
+  text-decoration: none;
+}
+
+.nav_bar_hover {
+  color: black;
+}
+
+.nav_bar_hover {
+  position: relative;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.nav_bar_hover:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.nav_bar_hover:hover:after {
+  width: 100%;
+}
+
+.nav_bar_icon {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
